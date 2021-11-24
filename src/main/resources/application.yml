@@ -1,0 +1,30 @@
+
+server:
+  port: 8088
+  
+master:
+   user:
+    name: faheem
+    email: faheemunnisa.ny7@gmail.com
+  
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/health
+    username: root
+    password: rootroot
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: create
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: syedafaheem7@gmail.com
+    password: WasiMylive7
+    properties:
+     mail:
+      smtp:
+       starttls:
+         enable: true
